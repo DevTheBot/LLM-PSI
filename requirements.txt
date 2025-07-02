@@ -14,3 +14,5 @@ transformers==4.41.2
 sentence-transformers
 python-multipart==0.0.9
 pytest
+starlette>=0.27.0
+httpx>=0.23.0
