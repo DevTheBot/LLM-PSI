@@ -13,3 +13,4 @@ pydantic-settings==2.2.1
 transformers==4.41.2
 sentence-transformers
 python-multipart==0.0.9
+pytest
