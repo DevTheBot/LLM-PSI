@@ -95,16 +95,4 @@ OPENAI_API_KEY = "sk-..."
 - **Others**: Extend `config.py` and the pipeline as needed.
 
 ### Environment Variables
-You can also use a `.env` file to store sensitive keys and load them in `config.py` using `python-dotenv`.
-
----
-
-## 4. Troubleshooting
-- If you see errors about `TestClient` or `httpx`, ensure all dependencies are up to date and compatible.
-- For integration tests, make sure `test.pdf` exists in the `tests/` directory.
-- For LLM provider issues, double-check your API keys and config settings.
-
----
-
-## 5. License
-MIT License
+You can also use a `.env` file to store sensitive keys and load them in `config.py`
