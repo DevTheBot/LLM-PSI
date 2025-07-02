@@ -15,3 +15,7 @@ def test_upload_endpoint():
 def test_query_endpoint():
     response = client.post("/query", json={"question": "Test?"})
     assert response.status_code == 200
+
+def test_import_app():
+    from main import app
+    assert app is not None
