@@ -25,22 +25,6 @@ jobs:
         pip install fastapi==0.110.0 pytest
         pip install httpx
         pip install pytest-httpx
-        pip install fastapi==0.110.0
-        pip install uvicorn==0.27.1
-        pip install langchain==0.1.16
-        pip install langchain-community==0.0.32
-        pip install langsmith>=0.1.0,<0.2.0
-        pip install chromadb==0.4.24
-        pip install requests==2.31.0
-        pip install python-dotenv==1.0.1
-        pip install pypdf==4.1.0
-        pip install python-docx==1.1.0
-        pip install docx2txt==0.8
-        pip install pydantic-settings==2.2.1
-        pip install transformers==4.41.2
-        pip install python-multipart==0.0.9
-        pip install starlette>=0.27.0
-        pip install httpx==0.28.1
     - name: Show httpx version
       run: pip show httpx
 
