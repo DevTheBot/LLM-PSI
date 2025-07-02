@@ -95,4 +95,4 @@ OPENAI_API_KEY = "sk-..."
 - **Others**: Extend `config.py` and the pipeline as needed.
 
 ### Environment Variables
-You can also use a `.env` file to store sensitive keys and load them in `config.py`
+You can replace dummy in `.env` file to store sensitive keys and load them in `config.py`
